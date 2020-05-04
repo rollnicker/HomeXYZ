@@ -18,9 +18,9 @@ public class Main {
             System.out.print("write z number: ");
             int z = in.nextInt();
 
-            int ari = (x + y + z) / 3 ;
+            float ari = (x + y + z) / 3 ;
         System.out.println(ari);
-            int fme = ari / 2;
+            float fme = ari / 2;
             if (fme > 3){
             System.out.println("Программа выполнена корректно");
         }
